@@ -1,7 +1,14 @@
-# calculadoranext
+# Calculadora de Materia Prima
 
-Tecnologías:
-- Frontend: Next.js 14 (TypeScript)
-- Backend: Python (Flask + SQLAlchemy)
-- Base de datos: PostgreSQL
-- Deployment: Vercel (Frontend) + Render/Railway (Backend y DB)
+Aplicación para cálculo de requerimientos de materia prima en producción.
+
+## Requisitos
+- PostgreSQL 12+
+- Python 3.8+
+- Node.js (opcional)
+
+## Instalación
+1. Clonar repositorio
+2. Configurar base de datos:
+```bash
+sudo -u postgres psql -f backend/database.sql
